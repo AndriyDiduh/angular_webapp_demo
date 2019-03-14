@@ -13,9 +13,19 @@
     display: table;
 }
 
+img.angular_logo_menu {
+    display: block;
+    position: relative;
+    width: 67px;
+    float: left;
+    margin-bottom: -22px;
+    box-shadow: inset 0px 51px 0px 0px #FFF;
+    -webkit-box-shadow: inset 0px 51px 0px 0px #FFF;
+}
+
 .navigation_item {
     display: block;
-    width: 33%;
+    width: 29%;
     float: left;
     height: 50px;
     line-height: 47px;
