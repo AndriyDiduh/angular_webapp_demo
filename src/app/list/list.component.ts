@@ -14,8 +14,9 @@ interface ListApiData {
 })
 
 export class ListComponent implements OnInit {
-  titleMain = 'FoodDocs';
+  titleMain = 'Angular';
   dataRequestTitle = 'Get list of data ';
+  charactersListTitle = 'StarWars characters BIO';
 
   title = 'People list - angular way ';
   listItems: ListApiData[];
@@ -34,9 +35,17 @@ export class ListComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.http.get('https://app.dev.fooddocs.ee/api/testtask').subscribe( (data: Array<any>) => {
-      this.listItems = data;
-    } );
+    // this.http.get('https://app.dev.fooddocs.ee/api/testtask').subscribe( (data: Array<any>) => {
+    //   this.listItems = data;
+    // } );
+    // use dummy Data 
+    this.listItems = [
+      {"id":0,"name":"Luke Skywalker","age": 17},
+      {"id":1,"name":"Darth Vader","age": 41},
+      {"id":2,"name":"Leia Organa","age": 19},
+      {"id":3,"name":"Owen Lars","age": 52},
+      {"id":4,"name":"C-3PO","age":null}
+    ];
   }
 
 }
