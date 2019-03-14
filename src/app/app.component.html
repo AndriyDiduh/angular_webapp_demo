@@ -1,0 +1,7 @@
+<app-navigation></app-navigation>
+<div>
+  <app-list *ngIf="globalSettings.loadComponent.list" ></app-list>
+  <app-blog *ngIf="globalSettings.loadComponent.blog" ></app-blog>  
+  <app-bot *ngIf="globalSettings.loadComponent.bot" ></app-bot>
+</div>
+<router-outlet></router-outlet>

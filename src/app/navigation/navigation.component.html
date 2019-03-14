@@ -1,0 +1,8 @@
+<div [ngClass]="'navigation_holder'">
+  <div [ngClass]="'navigation'">
+    <div [ngClass]="['navigation_item ', globalSettings.loadComponent.list? 'active': '' ]" (click)="globalSettings.loadComponentSwitch('list')">list</div>
+    <div [ngClass]="['navigation_item ', globalSettings.loadComponent.blog? 'active': '' ]" (click)="globalSettings.loadComponentSwitch('blog')">blog</div>
+    <div [ngClass]="['navigation_item ', globalSettings.loadComponent.bot? 'active': '' ]" (click)="globalSettings.loadComponentSwitch('bot')">bot</div>
+  </div>
+</div>
+

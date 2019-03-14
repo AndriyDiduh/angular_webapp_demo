@@ -1,0 +1,64 @@
+.peoples_data_holder{
+    display: table;
+    margin: 0px auto;
+}
+.peoples_data_title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.peoples_data_list_holder {
+    display: table;
+    width: 362px;
+    float: left;
+}
+.peoples_data_list_holder ::ng-deep ul {
+    padding: 0px;
+}
+.peoples_data_list_holder ::ng-deep .list_item {
+    list-style-type: none;
+    display: block;
+    float: right;
+    width: 362px;
+    height: 20px;
+    background: #F9F9F9;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    border: 1px solid #a2a2a2;
+    border-radius: 4px;
+}
+.peoples_data_list_holder ::ng-deep .list_item .name {
+    border-right: 1px solid #a2a2a2;
+    padding-right: 6px;
+    width: 54%;
+    display: table;
+    float: left;
+    font-weight: 500;
+}
+.peoples_data_list_holder ::ng-deep .list_item .age {
+    padding-left: 6px;
+    width: 27%;
+    display: table;
+    float: left;
+    text-align: center;
+}
+.peoples_data_list_holder ::ng-deep .list_item button {
+    float: right;
+    display: block;
+    margin-right: -11px;
+    height: 32px;
+    margin-top: -6px;
+    cursor: pointer;
+}
+.peoples_data_list_empty_text{
+    padding: 20px 0px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(75, 75, 75);
+    width: 100%;
+    border: 2px dashed rgb(75, 75, 75);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    opacity: 0.5;
+}

@@ -1,0 +1,21 @@
+<div [ngClass]="'blog_holder'">
+  <div [ngClass]="'blog'">
+      <div [ngClass]="'blog_menu_holder'">
+          <div [ngClass]="'blog_menu_title'">NEWS + BLOG CATEGORIES</div>
+          <div [ngClass]="'blog_menu'">
+              <div [ngClass]="['blog_menu_item ', selectedCategoryData == apiData.characters_blog_list? 'active': '' ]" (click)="switchBlogCategory('characters')">Characters + Histories</div>
+              <div [ngClass]="['blog_menu_item ', selectedCategoryData == apiData.jedi_blog_list? 'active': '' ]" (click)="switchBlogCategory('jedi')">The Last Jedi</div>
+              <div [ngClass]="['blog_menu_item ', selectedCategoryData == apiData.games_blog_list? 'active': '' ]" (click)="switchBlogCategory('games')">Games and Apps</div>
+          </div>   
+      </div>    
+      <div [ngClass]="'blog_body'">
+        <div [ngClass]="'blog_content'">
+            <div [ngClass]="'blog_list_item'" *ngFor = "let item of selectedCategoryData" (click)="noContent()" >
+                <span [ngClass]="'blog_list_title'">{{item.title}}</span>
+                <img [ngClass]="'blog_list_img'" src="{{item.img}}"/>
+                <span [ngClass]="'blog_list_decription'">{{item.description}}</span>
+            </div>
+        </div>
+      </div>
+  </div>
+</div>
