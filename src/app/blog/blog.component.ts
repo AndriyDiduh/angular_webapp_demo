@@ -6,13 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
-  //loadComponent_blog: boolean = true;
-  apiData;
-  selectedCategoryData:any[];
+  apiData: any;
+  selectedCategoryData: any[];
 
   constructor() { }
 
-  switchBlogCategory( category:string ){
+  switchBlogCategory( category: string ){
     if( category === 'characters'){
       this.selectedCategoryData = this.apiData.characters_blog_list;
     } else if( category === 'jedi'){
@@ -23,7 +22,7 @@ export class BlogComponent implements OnInit {
   }
 
   noContent(){
-    alert('Ops ! Looks like content was Blocked by Sith Empire, please visit official page at https://www.starwars.com. Test demo by Andriy Diduh ')
+    alert('Ops ! Looks like content was Blocked by Sith Empire, please visit official page at https://www.starwars.com');
   }
 
   ngOnInit() {
