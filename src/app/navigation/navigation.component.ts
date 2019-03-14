@@ -6,11 +6,10 @@ import { TestsService } from '../tests.service';
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.css']
 })
-export class NavigationComponent implements ngOnInit {
+export class NavigationComponent implements OnInit {
 
   constructor(private globalSettings: TestsService) { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }

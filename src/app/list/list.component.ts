@@ -12,7 +12,7 @@ export class ListComponent {
   dataRequestTitle = 'Get list of data ';
   
   title:string = "People list - angular way "
-  listItems:any[];
+  listItems;
   constructor(private http: HttpClient) { }
 
   // onclick to Delete list item 

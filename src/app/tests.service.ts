@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class TestsService {
-  loadComponent = {
+  loadComponent:any = {
     list: true,
     blog: false,
     bot: false
