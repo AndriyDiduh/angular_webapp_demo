@@ -13,7 +13,7 @@
           <li [ngClass]="['list_item ', item.name]" *ngFor = "let item of listItems">
               <span [ngClass]="'name'">{{item.name}}</span>
               <span [ngClass]="'age'" [ngStyle]="{'color': !item.age? 'inherit': item.age >= 18? 'green': 'red'}" >{{!item.age? 'Unknown': item.age}}</span>
-              <button type="button" (click)="deleteListItem($event, item.id)">Remove</button>
+              <button type="button" (click)="deleteListItem(item.id)">Remove</button>
           </li>
         </ul>  
   </div>
