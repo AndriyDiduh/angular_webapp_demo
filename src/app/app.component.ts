@@ -8,5 +8,5 @@ import { TestsService } from './tests.service';
 })
 
 export class AppComponent {
-  constructor(private globalSettings: TestsService){}
+  constructor(public globalSettings: TestsService){}
 }
