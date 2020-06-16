@@ -8,7 +8,7 @@ import { TestsService } from '../tests.service';
 })
 export class NavigationComponent implements OnInit {
 
-  constructor(private globalSettings: TestsService) { }
+  constructor(public globalSettings: TestsService) { }
 
   ngOnInit() {}
 
