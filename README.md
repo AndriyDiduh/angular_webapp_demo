@@ -1,11 +1,11 @@
 
 # Research on Angular & TypeScript 
-> Demo project by [@Andriy Diduh](https://andriydiduh.netlify.app/).
-Click here to [Launch demo](https://andriydiduh-angular-app-demo.netlify.app/) !
+> Demo project by [@Andriy Diduh](https://andriydiduh.netlify.app/). Click here to [Launch demo](https://andriydiduh-angular-app-demo.netlify.app/) !
+
+Star Wars website with a micro blog, typical "to-do list", menu and other standard website elements. Built to serve as a testing ground for Angular & Typescript research. Project based on [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
 
 ![](https://i.ibb.co/tJH2nv3/angular-app-r-by-andriy-diduh-software-engineer.png)
 
-A website with "Star Wars" content, built to be a testing ground for Angular & Typescript research. Project based on [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
 
 # How to RUN on my machine ?
 > You need to have Node.js and Angular CLI preinstalled in your system Globally, before running this project.
