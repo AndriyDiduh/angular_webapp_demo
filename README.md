@@ -1,27 +1,21 @@
-# MyNewAngularApp
+# Research on Angular & TypeScript by Andriy Diduh
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+<a href="url"><img src="https://i.ibb.co/YDV1XXf/angular-app-by-andriy-diduh-software-engineer.png" height="auto" width="100%" style="border-radius:20px"></a>
 
-## Development server
+[Angular Demo](https://andriydiduh-angular-app-demo.netlify.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+A website with "Star Wars" content, built to be a testing ground for Angular & Typescript research. Project based on [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
 
-## Code scaffolding
+## Launch APP locally
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+In console run `ng serve` to launch dev server and test the APP locally. Navigate to `http://localhost:4200/`. 
 
-## Build
+## Build for production
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build` to build the project. Compiled at `dist/` directory. 
+Run `ng build --prod` for a production build.
 
-## Running unit tests
+## Run tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Console test - Run `ng test` to execute automatic tests via [Karma](https://karma-runner.github.io).
+"User" test - Run `ng e2e` to test as real user (robot that interacts automatically with app in browser to test the APP), done with [Protractor](http://www.protractortest.org/).
