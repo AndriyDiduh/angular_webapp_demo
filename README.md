@@ -4,7 +4,7 @@
 
 Star Wars website with a micro blog, typical "to-do list", menu and other standard website elements. Built to serve as a testing ground for Angular & Typescript research. Project based on [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
 
-![](https://i.ibb.co/tJH2nv3/angular-app-r-by-andriy-diduh-software-engineer.png)
+[![](https://i.ibb.co/tJH2nv3/angular-app-r-by-andriy-diduh-software-engineer.png)](https://andriydiduh-angular-app-demo.netlify.app/)
 
 
 # How to RUN on my machine ?
