@@ -1,6 +1,6 @@
 # Research on Angular & TypeScript by Andriy Diduh
 
-<a href="url"><img src="https://i.ibb.co/YDV1XXf/angular-app-by-andriy-diduh-software-engineer.png" height="auto" width="100%" style="border-radius:20px"></a>
+![](https://i.ibb.co/tJH2nv3/angular-app-r-by-andriy-diduh-software-engineer.png)
 
 [Angular Demo](https://andriydiduh-angular-app-demo.netlify.app/)
 
